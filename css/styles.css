@@ -1,5 +1,13 @@
-body {
+* {
+	font-family: 'Playfair Display', serif;
+}
+
+body, html {
 	background-image: url(gplaypattern.png);
+}
+
+h1 .char1 {
+	margin-top: 30px;
 }
 
 .chart rect {
@@ -7,8 +15,9 @@ body {
 }
 
 .chart text {
-  fill: white;
-  font: 10px sans-serif;
-  text-anchor: end;
+  fill: black;
+  font: 16px sans-serif;
+  text-anchor: start;
   margin-left: 3%;
 }
+
